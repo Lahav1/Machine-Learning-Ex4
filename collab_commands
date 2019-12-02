@@ -1,0 +1,6 @@
+!pip3 install torch
+!pip3 install soundfile
+!git clone https://github.com/orsanawwad/ML4_dataset.git
+
+
+!python ex4.py './ML4_dataset/data/train' './ML4_dataset/data/valid' './ML4_dataset/data/test'
